@@ -1,4 +1,4 @@
-﻿using ChessSharp.Board;
+﻿using ChessSharp.GameBoard;
 
 namespace ChessSharp
 {
@@ -8,6 +8,7 @@ namespace ChessSharp
         {
             Position pos = new Position(3, 4);
             Console.WriteLine(pos.Row);
+            Console.WriteLine($"As coordenadas são ({pos.ToString()})");
         }
     }
 }
