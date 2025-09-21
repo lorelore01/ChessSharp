@@ -1,6 +1,6 @@
 namespace ChessSharp.GameBoard
 {
-    enum Color
+    public enum Color
     {
         White,
         Black,

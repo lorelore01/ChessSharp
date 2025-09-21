@@ -4,7 +4,7 @@ using ChessSharp.GameBoard;
 namespace ChessSharp.GameBoard
 {
 
-    class Table
+    public class Table
     {
         public int Row { get; set; }
         public int Column { get; set; }
@@ -32,6 +32,7 @@ namespace ChessSharp.GameBoard
         public void SetPiece(Piece piece, int row, int column)
         {
             pieces[row, column] = piece;
+
         }
 
 
