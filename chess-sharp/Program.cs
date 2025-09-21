@@ -9,6 +9,12 @@ namespace ChessSharp
             Position pos = new Position(3, 4);
             Console.WriteLine(pos.Row);
             Console.WriteLine($"As coordenadas são ({pos.ToString()})");
+            Table tab = new Table(8, 8);
+            Screen.PrintTable(tab);
         }
+
     }
+
+
+
 }
